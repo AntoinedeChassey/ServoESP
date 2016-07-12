@@ -6,11 +6,11 @@
 //#define SLEEP_DELAY_IN_SECONDS   30
 
 // WiFi setup
-const char* ssid = "CITC-Lab";
-const char* password = "r3v3rs3!LAB";
+const char* ssid = "<WiFi SSID>";
+const char* password = "<WiFi PASSWORD>";
 
 // MQTT setup
-const char* mqtt_server = "178.32.217.100";
+const char* mqtt_server = "<MQTT Broker address>";
 const char* mqtt_username = "esp12";                   // used while connecting to the broker
 const char* mqtt_password = "";                        // leave empty if not needed
 const String mqtt_topic_syntax = "servo/";             // the first part of the MQTT topic, the mac address of the ESP is added automaticaly when creating the full topic
